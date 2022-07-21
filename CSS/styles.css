@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+background-image:url(../test1.img/programing.task2.jpeg) ;
+background-size: 100%;
+padding: 30px; 
+}
+
+h1{
+    text-align: center;
+}
+
+#menu > ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#menu >ul >li {
+    display: inline;
+    margin: 0 16px 0 0;
+    padding: 4px;
+
+    border: 1px solid #666;
+    border-radius: 4px;
+    background: -moz-linear-gradient(#666);
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+main{
+    margin: 0 10px;
+    padding: 0 8px;
+    flex: 2;
+    order: 1;
+}
+
+aside{
+    margin: 10px;
+    padding: 10px;
+    flex: 1 50px;
+    order: 2;
+    background-color: rgba(201, 146, 201, 0.2);
+
+}
+
+#qatar{
+    padding: 10px;
+    margin: 10px;
+}
+
+tr{
+    margin: 0 10px 0 10px;
+}
+
+.league{
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.league th{
+ border: solid 1px #778ca3;
+}
+
+.league td{
+    padding: 10px;
+    border: solid 1px #778ca3;
+   }
+
+.flex-container{
+    display: flex;
+    flex-flow: row;
+    margin-inline-end: auto;
+}
+main{
+    margin: 0 10px;
+    padding: 0 8px;
+
+}
+
+.flex-container2{
+    display: flow-root;
+    flex-flow:row-reverse;
+    margin: auto;
+}

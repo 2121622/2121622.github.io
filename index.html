@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+    
+    
+    <link rel="stylesheet" href="./CSS/styles.css">
+    
+    <meta name="author" content="HIroshi Nakai">
+    
+    <meta name="keywords" content="soccer, world cup,">
+    
+    
+    <title>プログラミング課題1</title>
+    
+</head>
+
+<body>
+    <header>
+        <h1 id="top">サッカーW杯直前サイト！</h1>
+        <nav id="menu">
+            <ul>
+                
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#schedule">大会概要</a></li>
+                <li><a href="#player">注目選手</a></li>
+                
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <h2 id="schedule">大会概要</h2>
+    <div>
+        
+
+        <h3>2022年はサッカーW杯の開催年！ </h3>
+        
+        <p>2022年11月21日に待ちに待ったサッカーワールドカップが開催される。</p>
+        <p>サッカーワールドカップ（W杯）とは4年に1度開催されるサッカーの祭典で世界中のサッカー選手が国の威信を背負って戦う交際大会である。</p>
+        <p>本年のW杯は中東アラブ地域のカタールで開催される。これは同地域初のW杯である。</p>
+        <p> </p>
+        <p> </p>
+        
+        <div class="flex-container">
+            
+            <main>
+                <h4>日本との時差は？</h4>
+                <p>観戦する上で気になるのが日本との時差である。これによって観戦の時間が決まってくるからである。
+                    日本とカタールの時差は6時間日本の方が早い。すでに試合の時間帯は発表されていることから日本時間の試合時間は次のようになる</p>
+                </main>
+                
+                <aside>
+                    
+                    <h5>
+                        日本時間のキックオフ時間
+                    </h5>
+                    <ul>
+                        <li>現地13:00 → 日本19:00</li>
+                        <li>現地16:00 → 日本22:00</li>
+                        <li>現地18:00 → 日本24:00</li>
+                        <li>現地19:00 → 日本25:00</li>
+                        <li>現地22:00 → 日本26:00</li>
+                    </ul>
+                </aside>
+            </div>
+            
+            
+            
+        </div>
+        
+        <h4>グループリーグ</h4>
+    <div>
+
+        <table class="league">
+
+            <tr>
+                <th></th>
+
+                <th>ポッド1</th>
+                <th>ポッド2</th>
+                <th>ポッド3</th>
+                <th>ポッド4</th>
+            </tr>
+
+            <tr>
+
+                <th>グループA</th>
+                <td>カタール</td>
+                <td>オランダ</td>
+                <td>セネガル</td>
+                <td>エクアドル</td>
+            </tr>
+            <tr>
+                <th>グループB</th>
+                <td>イングランド</td>
+                <td>アメリカ</td>
+                <td>イラン</td>
+                <td>ウェールズ</td>
+            </tr>
+            <tr>
+                <th>グループC</th>
+                <td>アルゼンチン</td>
+                <td>メキシコ</td>
+                <td>ポーランド</td>
+                <td>サウジアラビア</td>
+            </tr>
+            <tr>
+
+                <th>グループD</th>
+                <td>フランス</td>
+                <td>デンマーク</td>
+                <td>チュニジア</td>
+                <td>オーストラリア</td>
+            </tr>
+            <tr>
+                <th>グループE</th>
+                <td>スペイン</td>
+                <td>ドイツ</td>
+                <td>日本</td>
+                <td>コスタリカ</td>
+            </tr>
+            <tr>
+                <th>グループF</th>
+                <td>ベルギー</td>
+                <td>クロアチア</td>
+                <td>モロッコ</td>
+                <td>カナダ</td>
+            </tr>
+            <tr>
+                <th>グループG</th>
+                <td>ブラジル</td>
+                <td>スイス</td>
+                <td>セルビア</td>
+                <td>カメルーン</td>
+            </tr>
+            <tr>
+                <th>グループH</th>
+                <td>ポルトガル</td>
+                <td>ウルグアイ</td>
+                <td>韓国</td>
+                <td>ガーナ</td>
+            </tr>
+        </table>
+
+        <div class="flex-container2">
+            <main>
+            <h5>W杯参加国の大陸別分布</h5>
+
+                <!-- グラフ用意したい場所にcanvas -->
+                <canvas id="myChart"></canvas>
+                <canvas id="myChart2"></canvas>
+            </main>
+        </div>
+    </div>
+
+    <h5 id="player">注目選手</h5>
+    <div>
+        <ul>
+            <li><a href="./task1-1.html" target="blank">クリスティアーノ・ロナウド</a></li>
+            <li><a href="./task1-2.html" target="blank">リオネル・メッシ</a></li>
+        </ul>
+    </div>
+    <p><a href="#top">トップに戻る</a></p>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js" integrity="sha256-cHVO4dqZfamRhWD7s4iXyaXWVK10odD+qp4xidFzqTI=" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+
+    <footer>
+
+        copyright &copy; Hiroshi Nakai, All Right
+    </footer>
+
+</body>
+
+</html>
